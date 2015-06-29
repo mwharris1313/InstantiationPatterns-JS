@@ -18,12 +18,12 @@ var Counter = function(){
   return obj;
 }
 
-var newCounter = Counter();
-newCounter.print();      // Outputs: 0
-newCounter.increment();
-newCounter.increment();
-newCounter.print();      // Outputs: 2
-newCounter.decrement();
-newCounter.decrement();
-newCounter.decrement();
-newCounter.print();      // Outputs: -1
+var counter = Counter();
+counter.print();      // Outputs: 0
+counter.increment();
+counter.increment();
+counter.print();      // Outputs: 2
+counter.decrement();
+counter.decrement();
+counter.decrement();
+counter.print();      // Outputs: -1
